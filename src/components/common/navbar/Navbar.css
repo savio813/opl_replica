@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+}
+
+
+.custom-drp{
+  padding-right: 10%;
+  font-size: large;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 2%;
+  align-items: center;
+}
+.background-white {
+  background-color: white;
+}
+.custom-text:hover{
+  color: blue;
+}
+.custom-header{
+  margin: 0;
+  padding: 0;
+}
+.custom-nav{
+  margin-top: 0;
+  padding-top: 0;
+  
+}
+.custom-btn{
+  outline: 10px;
+  color: rgb(18, 35, 225);
+  
+  padding-top: 0%;
+  margin-left: 60%;
+
+}
+
+.custom-logo{
+  flex-direction: row;
+  margin-left: .7cm;
+      
+}
+.custom-box{
+  width: 20rem;
+  background-color: white;
+  padding: 0%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  font-weight: lighter;
+  
+
+}
